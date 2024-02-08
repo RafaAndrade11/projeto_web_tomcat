@@ -4,4 +4,21 @@
   <artifactId>ProjetoWebTomcat</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+  <dependencies>
+		<dependency>
+			<groupId>org.jboss.spec</groupId>
+			<artifactId>jboss-javaee-all-7.0</artifactId>
+			<version>1.0.1.Final</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat -->
+		<dependency>
+    		<groupId>org.apache.tomcat</groupId>
+   		    <artifactId>tomcat</artifactId>
+    		<version>9.0.85</version>
+   		    <type>pom</type>
+		</dependency>
+
+  </dependencies>
 </project>
